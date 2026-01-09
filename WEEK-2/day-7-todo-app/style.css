@@ -1,0 +1,44 @@
+.app-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.input-section h4 {
+    font-weight: 600;
+}
+
+.filter-section {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-section .btn.active {
+    background-color: #212529;
+    color: white;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-text {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 500;
+}
