@@ -1,34 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Bio Page</title>
+    <meta charset="UTF-8">
+    <title>Personal Bio</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa; /* light background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Heading styles */
+        h1 {
+            text-align: center;
+            color: #4a90e2;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #ff6b6b;
+            border-bottom: 2px solid #ff6b6b;
+            padding-bottom: 5px;
+        }
+
+        /* Paragraph styles */
+        p {
+            max-width: 700px;
+            margin: 10px auto;
+            font-size: 1.1em;
+        }
+
+        /* Lists styling */
+        ul, ol {
+            max-width: 700px;
+            margin: 10px auto 20px auto;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Links styling */
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #ff6b6b;
+        }
+
+        /* Form styling */
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff6b6b;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>My Name</h1>
+    <!-- Heading -->
+    <h1>My Personal Bio</h1>
 
-  <p>
-    Hello! I am learning frontend development. 
-    This is my personal bio page created using HTML.
-  </p>
+    <!-- Paragraph -->
+    <p>
+        Hello! My name is Yashna V Shamjith. I am a BTech student learning
+        Frontend Development. I am passionate about web development and technology.
+    </p>
 
-  <h2>My Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
+    <!-- Headings -->
+    <h2>About Me</h2>
+    <p>
+        I enjoy learning new skills, building projects, and improving my
+        problem-solving abilities.
+    </p>
 
-  <h2>Contact Me</h2>
-  <form>
-    <label>Name:</label><br>
-    <input type="text"><br><br>
+    <!-- List -->
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Listening to music</li>
+        <li>Learning new technologies</li>
+    </ul>
 
-    <label>Email:</label><br>
-    <input type="email"><br><br>
+    <!-- Ordered List -->
+    <h2>My Goals</h2>
+    <ol>
+        <li>Become a skilled frontend developer</li>
+        <li>Build real-world projects</li>
+        <li>Get a good job in tech</li>
+    </ol>
 
-    <input type="submit" value="Submit">
-  </form>
+    <!-- Link -->
+    <h2>My Profile</h2>
+    <p>
+        Visit my GitHub profile:
+        <a href="https://github.com/" target="_blank">GitHub</a>
+    </p>
+
+    <!-- Basic Form -->
+    <h2>Contact Me</h2>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" cols="30" placeholder="Your message here"></textarea><br>
+
+        <button type="submit">Submit</button>
+    </form>
 
 </body>
 </html>

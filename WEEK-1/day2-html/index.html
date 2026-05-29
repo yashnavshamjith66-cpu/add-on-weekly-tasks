@@ -1,34 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Blog Page</title>
+    <meta charset="UTF-8">
+    <title>Blog Article - Semantic HTML</title>
 </head>
 <body>
 
-  <header>
-    <h1>My Blog</h1>
-    <p>Learning Semantic HTML</p>
-  </header>
+    <!-- Header Section -->
+    <header>
+        <h1>My Tech Blog</h1>
+        <p>Exploring Web Development</p>
+        <hr>
+    </header>
 
-  <nav>
-    <a href="#">Home</a> |
-    <a href="#">About</a> |
-    <a href="#">Contact</a>
-  </nav>
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Articles</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+        <hr>
+    </nav>
 
-  <section>
-    <article>
-      <h2>Why I am Learning Web Development</h2>
-      <p>
-        Web development is interesting and creative.
-        Semantic HTML helps structure the content properly.
-      </p>
-    </article>
-  </section>
+    <!-- Main Content -->
+    <main>
 
-  <footer>
-    <p>© 2025 My Blog</p>
-  </footer>
+        <!-- Blog Article -->
+        <article>
+            <header>
+                <h2>Understanding Semantic HTML</h2>
+                <p>Published on <time datetime="2025-01-09">January 9, 2025</time></p>
+            </header>
+
+            <section>
+                <h3>What is Semantic HTML?</h3>
+                <p>
+                    Semantic HTML uses meaningful tags that clearly describe
+                    the purpose of the content. It improves accessibility,
+                    readability, and SEO.
+                </p>
+            </section>
+
+            <section>
+                <h3>Why Use Semantic Tags?</h3>
+                <ul>
+                    <li>Improves accessibility</li>
+                    <li>Makes code readable</li>
+                    <li>Better SEO</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Common Semantic Tags</h3>
+
+                <!-- Table -->
+                <table border="1" cellpadding="8">
+                    <tr>
+                        <th>Tag</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Defines page or section header</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td>Independent content block</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td>Defines sections in a document</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>Footer for a page or section</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+
+        <hr>
+
+        <!-- Sidebar -->
+        <aside>
+            <h3>About the Author</h3>
+            <p>
+                Yashna V Shamjith is a BTech student learning frontend development
+                and exploring modern web technologies.
+            </p>
+        </aside>
+
+        <hr>
+
+        <!-- Comment Form -->
+        <section>
+            <h3>Leave a Comment</h3>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" rows="4" cols="40"></textarea><br><br>
+
+                <input type="submit" value="Post Comment">
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Tech Blog. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>

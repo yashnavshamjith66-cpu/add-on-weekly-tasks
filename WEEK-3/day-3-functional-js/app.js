@@ -18,3 +18,5 @@ console.log("Sum:", total);
 // 4️⃣ Pure function example
 const multiply = (a, b) => a * b;
 console.log("Multiply 4 and 5:", multiply(4, 5));
+
+console.log("hey");
